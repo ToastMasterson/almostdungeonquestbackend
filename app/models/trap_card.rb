@@ -1,0 +1,2 @@
+class TrapCard < ApplicationRecord
+end
