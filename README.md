@@ -1,24 +1,23 @@
-# README
+Welcome to my lite version of DungeonQuest!
+(Originally published as Drakborgen (Dragon's Keep) in 1985 by Alga, a subsidiary of BRIO AB.)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Be sure to fork and clone the front repository here : https://github.com/ToastMasterson/almostdungeonquestfrontend
 
-Things you may want to cover:
+Fork and clone this repository,
+Run (From the Backend Directory):
+    bundle install
+    rails db:{create,migrate,seed}
+    rails s
 
-* Ruby version
+Then in the frontend directory run
+    npm install
+    npm start
 
-* System dependencies
+Check the Frontend README.md for instructions and information.
 
-* Configuration
+Thank you for playing!
 
-* Database creation
+This project was made with a Ruby on Rails backend and a Reactjs frontend.
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+I do not own this game.
+I borrowed the mechanics, images, and game board from the actual 1985 board game.
