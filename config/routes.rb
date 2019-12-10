@@ -1,6 +1,8 @@
 Rails.application.routes.draw do
 
-  root to: "landing#index"
+  root to: 'characters#index'
+
+  resources :landing
   resources :trap_cards
   resources :monsters
   resources :room_cards
